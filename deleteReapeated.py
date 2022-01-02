@@ -20,4 +20,4 @@ def delete_duplicates(a):
     return write_index
 
 a = [1,1,1,1,2,3,3,5,5,7,7,7]
-print(delete_duplicate(a))
+print(delete_duplicates(a))
