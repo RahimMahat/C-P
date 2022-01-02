@@ -16,8 +16,8 @@ def delete_duplicates(a):
             a[write_index] = a[i]
             # and increment write index once we shift
             write_index += 1
-            
+
     return write_index
 
-a = [2,3,5,5,7,7,7,1,1,1,1,3]
+a = [1,1,1,1,2,3,3,5,5,7,7,7]
 print(delete_duplicate(a))
