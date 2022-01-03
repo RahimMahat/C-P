@@ -20,6 +20,7 @@ def buy_sell_stock_twice(prices):
         max_total_profit = max(max_total_profit, max_price_so_far - price + first_buy_sell_profits[i-1])
 
     return max_total_profit
+    # TC: bigO(n), SC: bigO(n)
 
 prices = [12,11.,13,9,12,8,14,13,15]
 print(buy_sell_stock_twice(prices))
